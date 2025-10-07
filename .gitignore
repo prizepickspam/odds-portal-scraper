@@ -6,3 +6,6 @@ next_matches/
 repomix.config.json
 repomix-output.md
 .repomixignore
+upcoming_data/
+multi_league.sh
+.DS_Store
