@@ -9,6 +9,9 @@ import { readFileSync } from 'fs';
 const packageJson = JSON.parse(readFileSync(new URL('./package.json', import.meta.url)));
 
 
+
+
+
 program
     .version(packageJson.version)
     .description('A CLI tool for scraping soccer odds from the odds portal site.')
